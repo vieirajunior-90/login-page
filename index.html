@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="login-page">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">    
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <section>
+        <div class="login-box">
+            <div class="login-input">
+                <h1 class="login-title">Login</h1>
+                <p class="login-subtitle">Don't have an account? <a class="login-subtitle-link" href="#">Create your account,</a> it
+                    takes less than a minute.</p>
+                
+                <form class="login-form" action="./">
+                    <label for="username"></label>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                    
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    
+                    <div class="login-options">
+                        <div class="login-remember">
+                            <input type="checkbox" name="remember" id="login-remember">
+                            <label for="login-remember">Remember me</label>
+                        </div>
+                        <a href="./">Forgot Password?</a>
+                    </div>
+        
+                    <button class="login-button" type="submit">Login</button>
+                </form>
+
+                <div class="login-social">
+                    <p>Or login with social media</p>
+                    <ul class="socials">
+                        <li><a class="btn-social facebook" href="#"><img src="./img/facebook-white.svg" alt="facebook" width="auto" height="20px"></a></li>
+                        <li><a class="btn-social twitter" href="#"><img src="./img/twitter-white.svg" alt="twitter" width="20px" height="20px"></a></li>
+                        <li><a class="btn-social google-plus" href="#"><img src="./img/google-plus-white.svg" alt="google-plus" width="auto" height="20px"></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="login-image">
+                <h1>Welcome</h1>
+                <p>Our platform has the best services for you. Your best place to buy and sell</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

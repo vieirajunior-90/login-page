@@ -1,0 +1,11 @@
+:root{
+    --color-title: #444444;
+    --color-text: #6b6b6b;
+    --color-options: #888888;
+    --color-button: linear-gradient(135deg, #1768d5, #3582eb);
+    --color-hover: #4892F6;
+    --color-facebook: #1253ab;
+    --color-twitter: #0aaafd;
+    --color-google: #f65b5b;
+    --color-white: #ffffff;
+}
